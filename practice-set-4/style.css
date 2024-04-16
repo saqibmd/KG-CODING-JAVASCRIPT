@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main h1 {
+  text-align: center;
+  margin-top: 5vh;
+  font-weight: 500;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+#location p {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.details {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.details input {
+  padding: 1vw;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.details button {
+  padding: 1vw;
+  border-radius: 50px;
+  border: none;
+}
+
+#result p {
+  margin-top: 3vh;
+  text-align: center;
+}
